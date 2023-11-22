@@ -424,6 +424,39 @@ form{ /*USO TAG GENERICO*/
 .social-footer svg:hover {
     color: #F40001;
     transition: all .8s ease-in-out;
+    
+}
+
+@media screen and (max-width: 780px) {
+
+    footer{
+        padding: 25px
+    }
+    .aside-form{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .termini{
+        width: 100%;
+        font-size: 12px;
+        padding-bottom: 5px;
+        justify-content: space-evenly;
+    }
+    #contact{
+        width: 100%;
+    }
+    .form-textarea{
+        width: 100%;
+    }
+    .social-media-footer{
+        align-items: center;
+    }
+    .text-footer{
+        width: 100%;
+        text-align: center;
+    }
+    
 }
 
 @media screen and (max-width: 480px) {
