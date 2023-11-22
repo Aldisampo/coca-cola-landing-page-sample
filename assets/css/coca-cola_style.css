@@ -101,6 +101,28 @@ header {
     border-bottom: 2px solid transparent;
 }
 
+.menu-hamburger {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 970px) {
+    nav, .social {
+        display: none;
+    }
+
+
+    header {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}
+
+@media screen and (min-width: 970px) {
+    .menu-hamburger {
+        display: none;
+    }
+}
 
 
 /*-------------M A I N--------------------*/
