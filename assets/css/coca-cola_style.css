@@ -371,7 +371,7 @@ form{ /*USO TAG GENERICO*/
 
 
 .text-footer{
-    width: 40vw;
+    width: 35vw;
     padding-top: 10px;
     color: #fff;
     font-size: 15px;
@@ -400,4 +400,3 @@ form{ /*USO TAG GENERICO*/
     color: #F40001;
     transition: all .8s ease-in-out;
 }
-
