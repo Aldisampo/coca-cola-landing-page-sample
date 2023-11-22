@@ -157,12 +157,12 @@ header {
 }
 /*---Prodotto---*/
 
-#product-wrapper {
+/* #product-wrapper {
     background-image: url(https://images-ext-1.discordapp.net/external/HyC1rmi6kyCdQK8mrQ3eFSE-J4r-Qcow5FrTEnj2bD8/%3Fq%3Dw_2000%2Ch_1429%2Cx_0%2Cy_0%2Cc_fill/https/media.cnn.com/api/v1/images/stellar/prod/210802170856-coca-cola-zero-sugar-us-store-0624-stock.jpg?format=webp&width=959&height=685);
     box-shadow: inset 0px 0px 19px 11px rgba(0,0,0,0.66);
     border-radius: 6px;
 
-}
+} */
 
 #product-panel {
     padding: 0;
@@ -209,7 +209,7 @@ h3 {/* ATTENZIONE! uso tag generico*/
 p { /* ATTENZIONE! uso tag generico*/
     /* background-color: rgb(6, 63, 6); /*Test */
     width: 80%;
-    font-weight: 500;
+    font-weight: 500;  
     font-size: 19px;
 }
 
@@ -462,14 +462,24 @@ form{ /*USO TAG GENERICO*/
 @media screen and (max-width: 480px) {
     .panel {
         flex-direction: column;
+        height: 80%;
     }
     .panel-text{
         width: 100%;
         justify-content: center;
         align-items: center;
+        padding: 0;     
     }
     #info-panels{
         font-size: 11px;
+        height: 220vh;
+    }
+    #product-panel {
+        height: 80%;
+        width: 140%;
+    }
+    .wrapper {
+        height: 50%;
     }
     #left-img{
         width: 100%;
@@ -481,12 +491,29 @@ form{ /*USO TAG GENERICO*/
         top:-8%;
         right: 8%;
     }
+    #brands{
+        height: 75vh;
+    }
     #brand-panel {
         width: 140%;
     }
 
     .brand-icon {
-        width: 14vh;
-        height: 14vh;  
+        width: 11vh;
+        height: 11vh;  
+    }
+    p {
+        font-size: 104%;
+        text-align: center;
+    }
+    h3 {
+        font-size: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    h4 {
+        font-size: 16px;
+        width: 100%;
+        justify-content: center;
     }
 }
