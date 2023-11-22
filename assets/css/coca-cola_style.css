@@ -48,6 +48,7 @@ header {
     align-items: center;
     height: 12vh;
     background-color: #F40001;
+    box-shadow: 0px 4px 26px 0px rgba(0,0,0,0.66);
 }
 
 /* LOGO edit */
@@ -108,11 +109,12 @@ header {
 /*---The hero image---*/
 #hero-page {
     height: 88vh;
-    background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/210802170856-coca-cola-zero-sugar-us-store-0624-stock.jpg?q=w_2000,h_1429,x_0,y_0,c_fill) ;
+    background-image: url(/assets/img/hero-page_serving-cola.jpg) ;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: -1;
 }
 
 
@@ -125,6 +127,8 @@ header {
     padding: 10vh 0;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px -4px 26px 0px rgba(0,0,0,0.66);
+
 }
 
 .panel {
