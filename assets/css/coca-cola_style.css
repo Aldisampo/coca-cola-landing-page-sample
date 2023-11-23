@@ -537,5 +537,8 @@ form{ /*USO TAG GENERICO*/
         width: 100%;
         justify-content: center;
     }
+    body{
+        width: 100vw;
+    }
 
 }
