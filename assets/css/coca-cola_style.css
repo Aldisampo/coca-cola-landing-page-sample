@@ -132,7 +132,12 @@ header {
 /*---The hero image---*/
 #hero-page {
     height: 88vh;
-    background-image: url(/assets/img/hero-page_serving-cola.jpg) ;
+
+    max-width: 100%;
+    background-image: url(/assets/img/serving-cola-from-bottle-glass-full-ice.jpg) ;
+
+    
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -141,6 +146,38 @@ header {
 }
 
 
+/*--logo hero--*/
+#cocacolazero {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+}
+
+#imglogo {
+    width: 60%;
+}
+
+/*--hero responsive--*/
+@media only screen and (max-device-width: 768px) {
+    #hero-page {
+    height: 40vh;
+    width: 100%;
+    background-image: url(/assets/img/serving-cola-from-bottle-glass-full-ice.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+
+    #cocacolazero {
+        margin: 15px;
+        width: 45%;
+        position: absolute;
+    }
+}
 /*-------------Section: info-panels--------------------*/
 
 #info-panels{
